@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/TelegramAt25/recovery_device_xiaomi_selene/tree/a11-r'
+        default: 'https://github.com/Cathryn2003/recovery_device_xiaomi_selene_te.git'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
@@ -52,7 +52,7 @@ jobs:
  
     # You might want to Checkout your repo first, but not mandatory
     - name: Check Out
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     # Cleanup The Actions Workspace Using Custom Composite Run Actions
     - name: Cleanup
